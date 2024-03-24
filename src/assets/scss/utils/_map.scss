@@ -1,0 +1,63 @@
+$font-sizes: (
+  64: 64px,
+  60: 60px,
+  48: 48px,
+  40: 40px,
+  32: 32px,
+  30: 30px,
+  28: 28px,
+  24: 24px,
+  20: 20px,
+  18: 18px,
+  16: 16px,
+  14: 14px,
+  12: 12px,
+);
+
+$h1-font-size:  96px;
+$h2-font-size:  48px;
+$h3-font-size:  40px;
+$h4-font-size:  24px;
+$h5-font-size:  18px;
+$h6-font-size:  12px;
+
+$spacer: 1rem; //16
+$spacers: (
+  0:  0,
+  4:  4px,
+  8:  8px,
+  12: 12px,
+  16: 16px,
+  20: 20px,
+  24: 24px,
+  28: 28px,
+  32: 32px,
+  36: 36px,
+  40: 40px,
+  44: 44px,
+  48: 48px,
+  52: 52px,
+  56: 56px,
+  60: 60px,
+  96: 96px,
+  128: 128px,
+);
+
+$utilities: (
+  "font-size": (
+    rfs: false,
+    responsive: true,
+    property: font-size,
+    class: fs,
+    values: $font-sizes,
+  ),
+);
+
+$gutters: (
+  0: 0,
+  1: $spacer * 0.25,
+  2: $spacer * 0.5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+);

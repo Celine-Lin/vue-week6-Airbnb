@@ -1,0 +1,17 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Kotta+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Vujahday+Script&display=swap');
+
+// Bootstrap
+@import "bootstrap/scss/functions";
+@import "./utils/_variables";
+@import "./base/_base";
+@import "./utils/_map";
+@import "bootstrap/scss/bootstrap";
+
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+// Others
+@import "sweetalert2/dist/sweetalert2.min.css";
+@import "vue-loading-overlay/dist/css/index.css";

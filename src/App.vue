@@ -1,11 +1,7 @@
 <template>
-  <RouterView />
+  <RouterView class="bg-daytime min-vh-100" />
 </template>
 
-<script>
-export default {};
-</script>
-
 <style lang="scss">
-
+  @import "./assets/scss/all";
 </style>
